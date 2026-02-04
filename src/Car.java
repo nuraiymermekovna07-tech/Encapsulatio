@@ -37,18 +37,7 @@ public class Car {
     }
     double getSpeed() {
         return speed;
-    }
-    void increaseSpeed(int speed) {
-        if (speed >= 0) {
-            this.speed += speed;
-        }
-    }
-    void decreaseSpeed(int speed) {
-        if (speed >0) {
-            this.speed -= speed;
-            if (speed < 0) {
-                this.speed = 0;
+
             }
         }
-    }
-}
+
